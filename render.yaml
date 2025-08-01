@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: research-paper-system
+    env: python
+    buildCommand: |
+      pip install -r requirements.txt
+      # Install FFmpeg for audio processing
+      apt-get update && apt-get install -y ffmpeg
+    startCommand: "streamlit run app.py --server.port=$PORT --server.address=0.0.0.0"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+    healthCheckPath: /_stcore/health
