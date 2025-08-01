@@ -21,6 +21,8 @@ Staying updated on research across multiple fields is challenging and time-consu
 
 The system implements a sophisticated multi-agent architecture where specialized agents collaborate to solve the research paper analysis problem:
 
+<img width="600" height="500" alt="High Level Design" src="https://github.com/user-attachments/assets/beb27f9e-ede2-4674-9d8f-9a16b8861762" />
+
 ### Multi-Agent Design and Coordination
 
 **Central Orchestrator Pattern**: The `ResearchSystem` controller coordinates all agents using a sequential workflow:
@@ -363,6 +365,8 @@ summary = summary_agent.process(
 - **Output Management**: File naming and directory structure
 
 ## 📋 Usage Guide
+<img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/c4c81c21-8c96-4c0e-bf15-5c3d686939ea" />
+<img width="1920" height="1080" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/7ec6739a-b508-467e-90b0-81738ea4689e" />
 
 ### Step 1: Define Your Research
 
@@ -391,6 +395,9 @@ Choose one or more options:
    - Generates audio files
 
 ### Step 4: Explore Results
+<img width="1920" height="1080" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/d46c0bca-ef95-4bdb-b79e-c0d17e37722b" />
+<img width="1920" height="1080" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/fbd5773b-2930-479f-be4f-700abb7a6bf4" />
+<img width="1920" height="1080" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/3d09f2ff-6477-4225-ab29-1c698a8baac1" />
 
 - **Papers Tab**: View all discovered papers organized by topic
 - **Summaries Tab**: Read AI-generated summaries with audio versions
